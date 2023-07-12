@@ -45,7 +45,7 @@ require (
 	github.com/open-telemetry/opentelemetry-collector-contrib/exporter/prometheusremotewriteexporter v0.81.0
 	github.com/open-telemetry/opentelemetry-collector-contrib/exporter/pulsarexporter v0.81.0
 	github.com/open-telemetry/opentelemetry-collector-contrib/exporter/sapmexporter v0.81.0
-	github.com/open-telemetry/opentelemetry-collector-contrib/exporter/sentryexporter v0.81.0
+	github.com/manuelgustavo/opentelemetry-collector-contrib/exporter/sentryexporter v0.81.0
 	github.com/open-telemetry/opentelemetry-collector-contrib/exporter/signalfxexporter v0.81.0
 	github.com/open-telemetry/opentelemetry-collector-contrib/exporter/skywalkingexporter v0.81.0
 	github.com/open-telemetry/opentelemetry-collector-contrib/exporter/splunkhecexporter v0.81.0
@@ -716,7 +716,7 @@ replace github.com/open-telemetry/opentelemetry-collector-contrib/extension/obse
 
 replace github.com/open-telemetry/opentelemetry-collector-contrib/extension/observer/k8sobserver => ../../extension/observer/k8sobserver
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/exporter/sentryexporter => ../../exporter/sentryexporter
+replace github.com/manuelgustavo/opentelemetry-collector-contrib/exporter/sentryexporter => ../../exporter/sentryexporter
 
 replace github.com/open-telemetry/opentelemetry-collector-contrib/exporter/dynatraceexporter => ../../exporter/dynatraceexporter
 
