@@ -258,12 +258,7 @@ func convertToSentrySpan(span ptrace.Span, library pcommon.InstrumentationScope,
 		tags[k] = v
 	}
 
-	set.Logger.Warn("MGSTEST span.Status() ", span.Status())
-
 	status, message := statusFromSpanStatus(span.Status(), tags)
-
-	set.Logger.Warn("MGSTEST status ", status)
-	set.Logger.Warn("MGSTEST message ", message)
 
 	if message != "" {
 		tags["status_message"] = message
