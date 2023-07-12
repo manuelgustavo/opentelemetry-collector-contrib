@@ -1,4 +1,4 @@
-module github.com/manuelgustavo/opentelemetry-collector-contrib/exporter/sentryexporter
+module github.com/open-telemetry/opentelemetry-collector-contrib/exporter/sentryexporter
 
 go 1.19
 

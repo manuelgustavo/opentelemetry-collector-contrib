@@ -12,7 +12,7 @@ import (
 	"go.opentelemetry.io/collector/component"
 	"go.opentelemetry.io/collector/confmap/confmaptest"
 
-	"github.com/manuelgustavo/opentelemetry-collector-contrib/exporter/sentryexporter/internal/metadata"
+	"github.com/open-telemetry/opentelemetry-collector-contrib/exporter/sentryexporter/internal/metadata"
 )
 
 func TestLoadConfig(t *testing.T) {

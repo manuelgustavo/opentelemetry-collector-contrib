@@ -11,7 +11,7 @@ import (
 	"go.opentelemetry.io/collector/component/componenttest"
 	"go.opentelemetry.io/collector/exporter/exportertest"
 
-	"github.com/manuelgustavo/opentelemetry-collector-contrib/exporter/sentryexporter/internal/metadata"
+	"github.com/open-telemetry/opentelemetry-collector-contrib/exporter/sentryexporter/internal/metadata"
 )
 
 func TestCreateDefaultConfig(t *testing.T) {
